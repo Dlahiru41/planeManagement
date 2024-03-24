@@ -1,3 +1,6 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Ticket {
     private String row;
     private int seat;
@@ -53,5 +56,24 @@ public class Ticket {
         System.out.println("Price: $" + price);
         System.out.println("Person Information:");
         person.printPersonDetails();
+    }
+
+    // Method to save ticket information to a file
+    public void save() {
+        String fileName = row + seat + ".txt"; // Constructing the file name
+        try (FileWriter writer = new FileWriter(fileName)) {
+            // Writing ticket information to the file
+            writer.write("Ticket Information:\n");
+            writer.write("Row: " + row + "\n");
+            writer.write("Seat: " + seat + "\n");
+            writer.write("Price: $" + price + "\n");
+            // Writing person information to the file using Person's save method
+            writer.write("Person Information:\n");
+            writer.write("Person Information "+person.toString()+"\n");
+            System.out.println("Ticket information saved to " + fileName);
+        } catch (IOException e) {
+            System.out.println("An error occurred while saving the ticket information to file.");
+            e.printStackTrace();
+        }
     }
 }

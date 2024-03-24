@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05404d3b-72f0-41e5-ad21-648e0a54a3de" name="Changes" comment="New: Start of the project">
-      <change afterPath="$PROJECT_DIR$/src/PlaneManagement.java" afterDir="false" />
+    <list default="true" id="05404d3b-72f0-41e5-ad21-648e0a54a3de" name="Changes" comment="New: Person and Ticket classes added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlaneManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlaneManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/dlahi/OneDrive/Desktop/Java/thinkinginjava/PlaneManagement/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711254331606</updated>
-      <workItem from="1711254332673" duration="1532000" />
+      <workItem from="1711254332673" duration="4458000" />
     </task>
     <task id="LOCAL-00001" summary="New: Start of the project">
       <created>1711254419689</created>
@@ -74,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711254419689</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New: Part A all the methods added">
+      <created>1711256002913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711256002913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New: Person and Ticket classes added">
+      <created>1711256485121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711256485121</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,17 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New: Start of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="New: Start of the project" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="New: Part A all the methods added" />
+    <MESSAGE value="New: Person and Ticket classes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New: Person and Ticket classes added" />
   </component>
 </project>
